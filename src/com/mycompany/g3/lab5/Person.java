@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package comycompany.g3.lab5;
+package com.mycompany.g3.lab5;
 
 /**
  *
@@ -41,7 +41,8 @@ public void setAddress (String address) {
     
     this.address = address;
 }
- 
+    
+   
     public String toString () {
     
     return String.format("Person[name=%s, address=%s]", name, address);
